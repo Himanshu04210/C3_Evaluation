@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Web20-C4</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>Masai Library</h2>
+      <div>
+        <a href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a href="./dashboard.html">
+          <h2>Dashboard</h2>
+        </a>
+        <a href="./buy.html">
+          <h2>My Books</h2>
+        </a>
+        <a href="./bookmark.html">
+          <h2>Bookmark</h2>
+        </a>
+      </div>
+    </div>
+    <div id="create">
+      <h1>Library Management System</h1>
+      <form>
+        <input id="name" placeholder="Book Name" type="text" />
+        <input id="author" placeholder="Author Name" type="text" />
+        <input id="desc" placeholder="Book Description" type="text" />
+        <label for="">Adding Date:-</label>
+        <input type="date" id="added"/>
+        <select id="category">
+          <option value="">Select Category</option>
+          <option value="Fiction">Fiction</option>
+          <option value="Self Help">Self Help</option>
+          <option value="Finance">Finance</option>
+        </select>
+        <input id="price" placeholder="Book's Price" type="number" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+  <script src="./Scripts/index.js"></script>
+</html>
